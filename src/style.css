@@ -57,7 +57,7 @@ main{
 }
 
 .weather-details{
-   font-size: 16px;
+   font-size: 18px;
    color: rgba(26, 22, 44, 0.4);
    line-height: 20px;
    font-weight: 500;
@@ -90,7 +90,7 @@ footer{
   border-bottom: 1px solid #cfcfcf;
   padding: 0 0 30px;
   text-align: center;
-  font: 10px;
+  font: 8px;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 300;
 }
