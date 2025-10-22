@@ -1,9 +1,11 @@
 function updateWeather(response) {
   let temperatureElement = document.querySelector("#temperature");
   let temperature = response.data.temperature.current;
-
+  let cityElement = document.querySelector("#city");
+ let city = response.data.city;
+  
   temperatureElement.innerHTML = Math.round(temperature);
-
+  cityElement.innerHTML = city;
 }
 
 function searchCity(city) {
@@ -22,3 +24,5 @@ function useSearchSubmit(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", useSearchSubmit);
+
+searchCity("Cape Town");
