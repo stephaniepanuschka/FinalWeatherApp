@@ -1,8 +1,12 @@
 body {
-  background-color: #d0d7db;
+  background-color: #5d82a2
 }
 
 .weather{
-  background-color: #EAD3B6;
-
+  background: white;
+  max-width: 600px;
+  margin-top: 30px auto;
+  padding: 20px;
+  
+  
 }
