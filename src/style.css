@@ -40,11 +40,11 @@ padding: 0 0 30px;
 color: black;
 }
 
-.main{
-  padding: 10px 0;
+main{
+  padding: 20px;
 }
 
-.weather-data{
+.weather-app-data{
     display: flex;
     justify-content: space-between;
 }
@@ -52,4 +52,8 @@ color: black;
 footer{
   border-bottom: 1px solid #9ba5ae;
   padding: 0 0 30px;
+  text-align: center;
+  font: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 300;
 }
