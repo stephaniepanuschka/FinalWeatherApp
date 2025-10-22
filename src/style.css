@@ -44,9 +44,26 @@ main{
   padding: 20px;
 }
 
+.weather-city{
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
 .weather-app-data{
     display: flex;
     justify-content: space-between;
+}
+
+.weather-details{
+  font-size: 16px;
+    color: rgba(26, 22, 44, 0.4);
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.weather-details strong {
+  color: rgb(126, 85, 221);
 }
 
 footer{
