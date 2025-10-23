@@ -82,7 +82,7 @@ main{
 }
 
 .weather-icon{
-  font-size: 40px;
+  width: 40px;
   margin-top: 25px;
 }
 
