@@ -112,6 +112,7 @@ main{
   display: flex;
   justify-content: center;
   margin-top: 8px;
+  padding-bottom: 40px;
 }
 
 .weather-forecast-temperature{
